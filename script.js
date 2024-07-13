@@ -15,7 +15,7 @@ document.getElementById("btn").onclick = (e)=>{
     let prnt = document.getElementById("output");
     async function display(){
         const data = await promise();
-        prnt.innerHTML+=`
+        prnt.innerHTML=`
             ${data}
         `
         // console.log(data);
